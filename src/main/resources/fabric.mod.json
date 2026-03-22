@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sandenderman",
+  "version": "${version}",
+  "name": "Sand Enderman",
+  "description": "Adds the Sand Enderman boss to desert biomes.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/sandenderman/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.sandenderman.SandEndermanMod"],
+    "client": ["com.sandenderman.SandEndermanModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1"
+  }
+}
